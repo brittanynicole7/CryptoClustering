@@ -11,7 +11,7 @@
 ## Find the Best Value for k Using the Original Scaled DataFrame
 - Create a list with the number of k values from 1 to 11.
 - Create an empty list to store the inertia values.
-- Create a for loop to compute the inertia with each possible values of k.
+- Create a for loop to compute the inertia with each possible value of k.
 - Create a dictionary with the data to plot the elbow curve.
 - Plot the elbow curve. 
 - Indicate the best value for k.
@@ -41,7 +41,7 @@
 - Fit the K-means model with the PCA data. 
 - Predict the clusters using the PCA data. 
 - Create a copy of the PCA DataFrame and add a column with the predicted clusters. 
-- Create a scatterplot with x representing on PC value and y representing another. Color the graph points with the labels found using K-means and add the "coin_id" as a hover column. 
+- Create a scatterplot with x representing one PC value and y representing another. Color the graph points with the labels found using K-means and add the "coin_id" as a hover column. 
 - Indicate the impact of using fewer features to cluster the data using K-means. 
 
 # Software and Files
@@ -64,7 +64,7 @@
 <img width="565" alt="Screenshot 2023-05-11 at 5 28 11 PM" src="https://github.com/brittanynicole7/CryptoClustering/assets/119909433/1fce8658-83dc-46c3-92dc-5aba2621689f">
 - Used the StandardScaler() module to normalize the csv data. 
 <img width="1366" alt="Screenshot 2023-05-11 at 5 29 17 PM" src="https://github.com/brittanynicole7/CryptoClustering/assets/119909433/1b298379-0790-4d44-ba19-f1175fec9275">
-- Created a DataFrame with the scaled data, copies the coin_id from the original data, and set coin_id as the index. 
+- Created a DataFrame with the scaled data, copied the coin_id from the original data, and set coin_id as the index. 
 <img width="1363" alt="Screenshot 2023-05-11 at 5 30 01 PM" src="https://github.com/brittanynicole7/CryptoClustering/assets/119909433/b6787798-3081-4d84-9bf2-78b9711b8df2">
 - Created a list with the number of k-values from 1 to 11, created an empty list to store the inertia values, and created a for loop to compute the inertia with each possible value of k. 
 <img width="1370" alt="Screenshot 2023-05-11 at 5 30 59 PM" src="https://github.com/brittanynicole7/CryptoClustering/assets/119909433/59ebc671-6a45-4569-9834-7a85d054ff14">
@@ -82,7 +82,7 @@
 <img width="1368" alt="Screenshot 2023-05-11 at 5 48 31 PM" src="https://github.com/brittanynicole7/CryptoClustering/assets/119909433/2b45f801-8595-4f84-a5d4-4539ec617e12">
 - Created a list with the number of k-values from 1 to 11, created an empty list to store the inertia values, created a for loop to compute the inertia with each possible value of k. 
 <img width="1349" alt="Screenshot 2023-05-11 at 5 49 25 PM" src="https://github.com/brittanynicole7/CryptoClustering/assets/119909433/df0fe9c4-10df-4ddd-ab84-45912fea9499">
-- Created a dictionary to plot the Elbow curve and a DataFrame and plotted the PCA elbow curve. Indicated that the best value for k when using the PCA data is 4 and that it does not differ from the best value using the original data. 
+- Created a dictionary to plot the Elbow curve and a DataFrame and plotted the PCA elbow curve. Indicated that the best value for k when using the PCA data is 4 and that it does not differ from the best value found using the original data. 
 <img width="1363" alt="Screenshot 2023-05-11 at 5 50 13 PM" src="https://github.com/brittanynicole7/CryptoClustering/assets/119909433/e8c88ec6-536d-41c3-a3a0-9f861b1a4f1e">
 - Initialized the K-Means model, fit the model, predicted the clusters, and printed the array of cluster values. 
 <img width="1363" alt="Screenshot 2023-05-11 at 5 51 28 PM" src="https://github.com/brittanynicole7/CryptoClustering/assets/119909433/dc223e13-a5e6-41c7-a47a-373fca2cbd24">
